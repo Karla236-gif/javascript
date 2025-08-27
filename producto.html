@@ -1,8 +1,20 @@
-<html>
-    <body>
-        <p id="msg"></p>
-        <script>
-            console.log("Empezo codigo");
-        </script>
-    </body>
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Producto</title>
+</head>
+<body>
+  <p id="msg"></p>
+  <select name="comuna" id="com"></select>
+
+  <script>
+    console.log("Empezó código");
+    document.getElementById("msg").innerText = "Hola";
+    document.getElementById("com").innerHTML = '<option value="1">Santiago<option value="2">Talca</option>';
+  </script>
+  <button type="button" onclick="alert('Clic');">Evento</button>
+  <button type="button" onclick="window.print();">Imprimir</button>
+
+</body>
 </html>
